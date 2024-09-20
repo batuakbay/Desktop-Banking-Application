@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="DovizIslem">
+  <grid id="27dc6" binding="Dovizislemleripanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="624" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13220734"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="87c6a" class="javax.swing.JLabel" binding="AltinField">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="Altin (Gram)"/>
+        </properties>
+      </component>
+      <component id="3263d" class="javax.swing.JLabel" binding="Altinallabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="Altin Alis (G.) : 2.408,268"/>
+        </properties>
+      </component>
+      <component id="1b7c7" class="javax.swing.JLabel" binding="Altinsatlabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="Altin Satis (G.) : 2.596,081"/>
+        </properties>
+      </component>
+      <component id="4ff1c" class="javax.swing.JButton" binding="Altinalbutton6">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14539445"/>
+          <font name="Arial Black" size="12"/>
+          <foreground color="-3747611"/>
+          <text value="Altin Al/Sat"/>
+        </properties>
+      </component>
+      <component id="ca1df" class="javax.swing.JLabel" binding="DolarField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="DOLAR"/>
+        </properties>
+      </component>
+      <component id="5e635" class="javax.swing.JLabel" binding="Dolarallabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="Dolar Alis : 30,8985"/>
+        </properties>
+      </component>
+      <component id="a8bb4" class="javax.swing.JLabel" binding="Dolarsatlabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="Dolar Satis : 33,2271"/>
+        </properties>
+      </component>
+      <component id="25447" class="javax.swing.JButton" binding="Dolaralbutton3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14539445"/>
+          <font name="Arial Black" size="12"/>
+          <foreground color="-3747611"/>
+          <text value="Dolar Al/Sat"/>
+        </properties>
+      </component>
+      <component id="199df" class="javax.swing.JLabel" binding="EuroField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="EURO"/>
+        </properties>
+      </component>
+      <component id="aa5e0" class="javax.swing.JLabel" binding="Euroallabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="Euro Alis : 33,584"/>
+        </properties>
+      </component>
+      <component id="2083b" class="javax.swing.JLabel" binding="Eurosatlabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-3747611"/>
+          <text value="Euro Satis : 36,0873"/>
+        </properties>
+      </component>
+      <component id="401de" class="javax.swing.JButton" binding="Euroalbutton2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14539445"/>
+          <font name="Arial Black" size="12"/>
+          <foreground color="-3747611"/>
+          <text value="Euro Al/Sat"/>
+        </properties>
+      </component>
+      <component id="971a5" class="javax.swing.JButton" binding="GeriDonbutton1">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14539445"/>
+          <font name="Arial Black" size="12"/>
+          <foreground color="-3747611"/>
+          <text value="Geri Don"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

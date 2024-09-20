@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="EkleTl">
+  <grid id="27dc6" binding="Tlpanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="900" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="4521f" layout-manager="GridLayoutManager" row-count="5" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13220734"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="14d92">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="423f0">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="d4bc8">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="13f20" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Deadpool Movie" size="16" style="1"/>
+              <foreground color="-3747611"/>
+              <text value="Yuklemek istediginiz miktari giriniz:"/>
+            </properties>
+          </component>
+          <component id="1e49c" class="javax.swing.JTextField" binding="yukletltxtfield">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Cooper Black" size="16" style="1"/>
+            </properties>
+          </component>
+          <component id="c764e" class="javax.swing.JButton" binding="p20button">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14736821"/>
+              <font name="Cooper Black" size="16" style="0"/>
+              <foreground color="-3747611"/>
+              <text value="20"/>
+            </properties>
+          </component>
+          <component id="c76e8" class="javax.swing.JButton" binding="a50Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14736821"/>
+              <font name="Cooper Black" size="16" style="0"/>
+              <foreground color="-3747611"/>
+              <text value="50"/>
+            </properties>
+          </component>
+          <component id="37345" class="javax.swing.JButton" binding="a100Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14736821"/>
+              <font name="Cooper Black" size="16" style="0"/>
+              <foreground color="-3747611"/>
+              <text value="100"/>
+            </properties>
+          </component>
+          <component id="422e1" class="javax.swing.JButton" binding="a200Button" default-binding="true">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14736821"/>
+              <font name="Cooper Black" size="16" style="0"/>
+              <foreground color="-3747611"/>
+              <hideActionText value="false"/>
+              <text value="200"/>
+            </properties>
+          </component>
+          <component id="8f112" class="javax.swing.JButton" binding="YukleButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14539445"/>
+              <font name="Deadpool Movie" size="14" style="0"/>
+              <foreground color="-3747611"/>
+              <text value="Yatir"/>
+            </properties>
+          </component>
+          <component id="16d2e" class="javax.swing.JButton" binding="Geributton1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14539445"/>
+              <font name="Deadpool Movie" size="16" style="0"/>
+              <foreground color="-3747611"/>
+              <text value="Geri Don"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="57a1e">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="dcad8">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="22305">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
